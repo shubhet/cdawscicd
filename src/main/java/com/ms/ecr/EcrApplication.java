@@ -17,9 +17,14 @@ public class EcrApplication {
 		return "Hello Shubham Gupta";
 	}
 	@GetMapping(value="/cicd")
-	public String welcome()
+	public String cicd()
 	{
 		return "Welcome to CICD example via SG";
+	}
+	@GetMapping(value="/welcome")
+	public String welcome()
+	{
+		return "Welcome to CICD";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(EcrApplication.class, args);
