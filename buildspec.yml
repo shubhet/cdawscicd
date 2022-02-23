@@ -11,5 +11,5 @@ phases:
      - echo Build completed successfully
 artifacts:
   files:
-      - target/cde-027-code-pipeline-git.jar
+      - target/cde-027-pipeline-gupta-shubh.jar
   discard-paths: yes

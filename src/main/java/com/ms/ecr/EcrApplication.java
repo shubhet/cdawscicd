@@ -21,7 +21,7 @@ public class EcrApplication {
 	{
 		return "Welcome to CICD example via SG";
 	}
-	@GetMapping(value="/welcome")
+	@GetMapping(value="/new")
 	public String welcome()
 	{
 		return "Welcome to CICD";
