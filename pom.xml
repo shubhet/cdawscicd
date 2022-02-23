@@ -55,7 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>aws-ecr-ms</finalName>
+		<finalName>cde-027-code-pipeline-git</finalName>
 	</build>
 
 </project>
